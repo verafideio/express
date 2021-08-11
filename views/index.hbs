@@ -1,0 +1,14 @@
+<script type="module" src="verafide-button.js"></script>
+
+{{#unless verified}}
+<verafide-button appKey="{{appKey}}" hostname="{{hostname}}" />
+
+{{/unless}}
+{{#if verified}}
+    <p>
+        You are verified!
+    </p>
+    <p>
+        <a href="/logout">Logout</a>
+    </p>
+{{/if}}

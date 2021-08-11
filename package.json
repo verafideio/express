@@ -1,0 +1,23 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@verafide/sdk": "0.1.30",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

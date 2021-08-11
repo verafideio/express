@@ -1,0 +1,13 @@
+<p>
+    Verified OK!
+</p>
+
+<script>
+    setTimeout(() => {
+        const win = window.opener;
+        if (!win.closed) {
+            win.location.reload();
+        }
+        window.close();
+    }, 1000);
+</script>
